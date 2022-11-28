@@ -19,6 +19,10 @@
                     binaryWordSearch.SearchWord(word);
 
                     break;
+                    case 2:
+                    GuessNumber guessNumber = new GuessNumber();
+                    guessNumber.Guess();
+                    break;
             }
             
         }
