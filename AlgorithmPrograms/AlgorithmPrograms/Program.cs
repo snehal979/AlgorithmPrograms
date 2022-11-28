@@ -6,7 +6,7 @@
         {
             Console.WriteLine("AlgorithmPrograms");
             Console.WriteLine("1.binary word seraech from data \n 2. guessnumber \n 3.userinput check \n4.insertionSort" +
-                "\n 5.bubble sort \n 6.merge sort");
+                "\n 5.bubble sort \n 6.merge sort \n 7. anagram");
             int num = Convert.ToInt32(Console.ReadLine());
             int[] arr = { 1, 5, 2, 8, 5, 7, 9, 2 };
             switch (num)
@@ -45,6 +45,10 @@
                     {
                         Console.WriteLine(data +" ");
                     }
+                    break;
+                case 7:
+                    AnaGram anaGram = new AnaGram();
+                    anaGram.checkAnagram("earth", "heart");
                     break;
 
 
