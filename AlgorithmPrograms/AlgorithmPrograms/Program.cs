@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("AlgorithmPrograms");
-            Console.WriteLine("1.binary word seraech from data");
+            Console.WriteLine("1.binary word seraech from data \n 2. guessnumber \n 3.userinput check \n4.insertionSort");
             int num = Convert.ToInt32(Console.ReadLine());
             switch (num)
             {
@@ -27,6 +27,19 @@
                     UserInputCheckcs userInputCheck = new UserInputCheckcs();
                     userInputCheck.ReplaceString();
                     break;
+                case 4:
+                    int[] arr = { 1, 5, 2, 8, 5, 7, 9, 2 };
+                    InsertionSort insertionSort = new InsertionSort();
+                    insertionSort.Sort(arr);
+                    break;
+
+
+
+
+
+
+
+
             }
             
         }
