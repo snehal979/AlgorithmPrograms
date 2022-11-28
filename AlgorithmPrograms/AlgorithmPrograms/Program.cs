@@ -23,6 +23,10 @@
                     GuessNumber guessNumber = new GuessNumber();
                     guessNumber.Guess();
                     break;
+                case 3:
+                    UserInputCheckcs userInputCheck = new UserInputCheckcs();
+                    userInputCheck.ReplaceString();
+                    break;
             }
             
         }
